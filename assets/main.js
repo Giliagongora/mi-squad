@@ -13,7 +13,7 @@ var maribel = new Squad("Maribel", "Diaz", 28, "Salir a tomar café");
 var vale = new Squad("Valentina", "Toledo", 20, "jugar fútbol");
 var kari = new Squad("Karina", "Palacios", 24, "Ver series");
 var gilia= new Squad("Gilia", "Góngora", 28, "Escuchar música");
-
+var dani= new Squad("Daniela", "Sanchez", 24, "Escuchar música");
 
 var revelarval = document.getElementById("val");
 var revelartrini = document.getElementById("trini");
@@ -23,6 +23,7 @@ var revelarmaribel = document.getElementById("maribel");
 var revelarvale = document.getElementById("vale");
 var revelarkari = document.getElementById("kari");
 var revelargilia = document.getElementById("gilia");
+var revelardani = document.getElementById("dani");
 
 revelargilia.innerHTML = "<strong>Nombre: </strong>" + gilia.nombre + " " + gilia.apellido +
 "<br> <strong>Edad: </strong>" + vale.edad +"<br> <strong>Hobbies: </strong> <li>" + gilia.hobbies + "</li>";
@@ -47,6 +48,9 @@ revelartrini.innerHTML = "<strong>Nombre: </strong>" + trini.nombre + " " + trin
 
 revelarval.innerHTML = "<strong>Nombre: </strong>" + val.nombre + " " + val.apellido +
 "<br> <strong>Edad: </strong>" + val.edad +"<br> <strong>Hobbies: </strong> <li>" + val.hobbies + "</li>";
+
+revelardani.innerHTML = "<strong>Nombre: </strong>" + dani.nombre + " " + dani.apellido +
+"<br> <strong>Edad: </strong>" + dani.edad +"<br> <strong>Hobbies: </strong> <li>" + dani.hobbies + "</li>";
 
 
 
